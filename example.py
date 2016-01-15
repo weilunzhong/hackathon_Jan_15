@@ -112,7 +112,7 @@ if __name__ == "__main__":
         for index in top_dates:
             start_date = timestamp_start[index]
             end_date = timestamp_end[index]
-            print start_date
+            print start_date, end_date
             date_format = '%Y-%m-%d'
             start_date, end_date = datetime.datetime.strptime(start_date, date_format), datetime.datetime.strptime(end_date,date_format)
 
