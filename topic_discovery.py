@@ -25,6 +25,9 @@ tdm.add_doc(doc3 + doc1)
 tdm.add_doc(doc3 + doc2)
 tdm.add_doc(doc1 + doc3)
 tdm.add_doc(doc2 + doc3)
+tdm.add_doc(doc2 + doc3)
+tdm.add_doc(doc2 + doc3)
+tdm.add_doc(doc2 + doc3)
 
 
 # create a temp variable with doc-term info
@@ -65,7 +68,7 @@ for i, k in enumerate([0, 2, 3, 6, 9]):
 ax[4].set_xlabel("word")
 
 plt.tight_layout()
-plt.savefig('a.png')
+plt.savefig('topic_word.png')
 
 f, ax= plt.subplots(5, 1, figsize=(8, 6), sharex=True)
 for i, k in enumerate([1, 3, 4, 8, 9]):
@@ -79,5 +82,5 @@ for i, k in enumerate([1, 3, 4, 8, 9]):
 ax[4].set_xlabel("Topic")
 
 plt.tight_layout()
-plt.savefig('a.png')
+plt.savefig('topic_per_document.png')
 
