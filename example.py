@@ -64,7 +64,7 @@ def csv2json(data):
 def get_top_date(actor_name, peak_num):
 
     google_username = "zhongweilunmichael@gmail.com"
-    google_password = "006688@Zwl"
+    google_password = "xxxxxx"
 
     fid = es_dao.get_actor_freebase_id_by_name(actor_name)
     print fid
